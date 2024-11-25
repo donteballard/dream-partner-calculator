@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Dream Partner Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A data-driven web application that calculates the statistical probability of finding a partner with specific characteristics using official US demographic data.
 
-## Available Scripts
+## 📊 About
 
-In the project directory, you can run:
+Dream Partner Calculator is an interactive tool that processes real demographic data from the US Census Bureau and National Center for Health Statistics to provide users with realistic insights about dating pool statistics. It helps users understand the statistical likelihood of finding a partner with their desired characteristics in the US population.
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 🔍 Filter by multiple demographic factors:
+  - Gender preference
+  - Age range
+  - Race/ethnicity
+  - Height requirements
+  - Income thresholds
+- 📈 Real-time statistical calculations
+- 💫 Smooth, intuitive UI with slider controls
+- 📱 Mobile-responsive design
+- 🔒 Client-side processing for privacy
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- React 18
+- Modern CSS3
+- Mobile-first responsive design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📊 Data Sources
 
-### `npm run build`
+The calculator processes statistical data from two primary sources:
+- US Census Bureau's Annual Social and Economic Supplement (ASEC)
+  - Income distribution
+  - Marital status
+  - Demographic information
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- National Center for Health Statistics (NCHS)
+  - Height distribution
+  - Body mass index data
+  - Health-related statistics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎯 Future Enhancements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] Add more demographic filters
+- [ ] Integrate real-time Census API data
+- [ ] Add visualization charts
+- [ ] Include geographic location filtering
+- [ ] Add detailed statistical breakdowns
+- [ ] Implement save/share functionality
 
-### `npm run eject`
+## 📱 Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Screenshots to be added]
