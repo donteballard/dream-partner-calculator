@@ -49,4 +49,5 @@ The calculator processes statistical data from two primary sources:
 
 ## 📱 Screenshots
 
-[Screenshots to be added]
+![Dream Partner Calculator Main Interface](./assets/main-interface.png)
+*Main calculator interface with demographic filters*
