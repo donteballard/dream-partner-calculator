@@ -56,14 +56,16 @@ function App() {
 
         <div className="group-box">
           <h2>Minimum Height</h2>
-          <input type="range" min="0" max="84" value={minHeight} onChange={(e) => setMinHeight(e.target.value)} />
-          <span>{minHeight === '0' ? 'Any' : `${Math.floor(minHeight / 12)}'${minHeight % 12}"`}</span>
+          <input type="range" min="0" max="84" value={minHeight} 
+            onChange={(e) => setMinHeight(Number(e.target.value))} />
+          <span>{minHeight === 0 ? 'Any' : `${Math.floor(minHeight / 12)}'${minHeight % 12}"`}</span>
         </div>
 
         <div className="group-box">
           <h2>Minimum Income</h2>
-          <input type="range" min="0" max="500000" step="10000" value={minIncome} onChange={(e) => setMinIncome(e.target.value)} />
-          <span>{minIncome === '0' ? 'Any' : `$${parseInt(minIncome).toLocaleString()}`}</span>
+          <input type="range" min="0" max="500000" step="10000" value={minIncome} 
+            onChange={(e) => setMinIncome(Number(e.target.value))} />
+          <span>{minIncome === 0 ? 'Any' : `$${parseInt(minIncome).toLocaleString()}`}</span>
         </div>
 
         <div className="group-box">
